@@ -1,4 +1,4 @@
-![github](http://github.com/unicorn.png "github") 
+![github](http://bcs.duapp.com/mobilelinbucket/blog/201305/device-2013-05-31-193958.png "github") 
 mz-app-center-layout
 ====================
 This project demonstrates how to make full use of actionbar + Tab + ViewPager in order to implement meizu app center's main layout, which include a custom layout with 3 tabs at actionbar,and 3 viewpages.
