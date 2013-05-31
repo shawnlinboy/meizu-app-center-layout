@@ -1,4 +1,4 @@
-mz-app-center-layout
+Meizu-App-Center-Layout
 ====================
 This project demonstrates how to make full use of actionbar + Tab + ViewPager in order to implement meizu app center's main layout, which include a custom layout with 3 tabs at actionbar,and 3 viewpages.
 
