@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dip"
+        android:paddingBottom="1dip"
+        android:text="@string/first_actionbar_title"
+        android:textColor="@color/actionbar_text_mz"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tab_text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:gravity="center"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dip"
+                android:text="@string/page1" />
+
+            <ImageView
+                android:id="@+id/scroll_1"
+                android:layout_width="wrap_content"
+                android:layout_height="3dip"
+                android:layout_alignLeft="@id/tab_text_1"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@id/tab_text_1"
+                android:background="@drawable/view_pager_scroll" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tab_text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:gravity="center"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dip"
+                android:text="@string/page2" />
+
+            <ImageView
+                android:id="@+id/scroll_2"
+                android:layout_width="wrap_content"
+                android:layout_height="3dip"
+                android:layout_alignLeft="@id/tab_text_2"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@id/tab_text_2"
+                android:background="@drawable/view_pager_scroll" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tab_text_3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:gravity="center"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dip"
+                android:text="@string/page3" />
+
+            <ImageView
+                android:id="@+id/scroll_3"
+                android:layout_width="wrap_content"
+                android:layout_height="3dip"
+                android:layout_alignLeft="@id/tab_text_3"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@id/tab_text_3"
+                android:background="@drawable/view_pager_scroll" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_alignParentBottom="true"
+        android:src="@color/actionbar_bottom_line" />
+
+</RelativeLayout>
