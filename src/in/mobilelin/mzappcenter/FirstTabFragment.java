@@ -50,7 +50,7 @@ public class FirstTabFragment extends Fragment {
 		// Looks like your adapter shouldn't extends FragmentPagerAdapter
 		// because in that case,you have to pass a fragmentmanager to it
 		// while you're trying to instantiate it and it's impossible to get that
-		// in a Fragment but a FragmentActivity.I'm still working on it.
+		// in a Fragment but a FragmentActivity. I'm still working on it.
 		pager.setAdapter(new MyPagerAdapter(getActivity()));
 		pager.setOnPageChangeListener(new OnPageChangeListener() {
 
@@ -128,7 +128,7 @@ public class FirstTabFragment extends Fragment {
 	}
 
 	/**
-	 * We user navigate back to FirstTabFragment.Reset the actionbar's
+	 * At any time the user navigate back to FirstTabFragment. Reset the actionbar's
 	 * customview and set the right position of that short blue line.
 	 */
 	@Override
