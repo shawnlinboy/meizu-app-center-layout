@@ -50,7 +50,7 @@ public class FirstTabFragment extends Fragment {
 		// Looks like your adapter shouldn't extends FragmentPagerAdapter
 		// because in that case,you have to pass a fragmentmanager to it
 		// while you're trying to instantiate it and it's impossible to get that
-		// in a Fragment.I'm still working on it.
+		// in a Fragment but a FragmentActivity.I'm still working on it.
 		pager.setAdapter(new MyPagerAdapter(getActivity()));
 		pager.setOnPageChangeListener(new OnPageChangeListener() {
 
