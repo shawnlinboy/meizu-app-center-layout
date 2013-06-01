@@ -78,9 +78,9 @@ public class FirstTabFragment extends Fragment {
 	}
 
 	/**
-	 * The mScroolX is the short blue line shown under "PgX" text. The
-	 * mTextViews behave like tabs that shown "PgX" text.As needed,when we
-	 * scroll those the pages, the short blue line should indicate which page
+	 * The mScrollX is the short blue line shown under "PgX" text. The
+	 * mTextViews behave like tabs that shown "PgX" text. As needed,when we
+	 * scroll those pages, the short blue line should indicate which page
 	 * was selected and the mTextViews should respond to click events and bring
 	 * user to the selected page. So we handle these affairs here.
 	 */
